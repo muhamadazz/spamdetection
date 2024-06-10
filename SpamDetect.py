@@ -6,7 +6,7 @@ model = joblib.load('text_classifier_model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
 
 # Streamlit UI
-st.title('SMS Spam Classifier')
+st.title('SMS Spam Classifier by Muhamad Fahraz Firdaus')
 st.write('Enter an SMS message to classify it as spam or ham.')
 
 
